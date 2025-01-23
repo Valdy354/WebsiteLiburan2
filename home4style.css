@@ -1,0 +1,97 @@
+/* Reset CSS */
+body, h1, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styles */
+body {
+    background: linear-gradient(to bottom, #005f73, #94d2bd, #ee9b00);
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: #023047;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-utama ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-utama ul li a {
+    text-decoration: none;
+    color: #94d2bd;
+    font-size: 18px;
+}
+
+/* Main title */
+.main-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Places row */
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.place {
+    text-align: center;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.place img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.place h3 {
+    color: #fefae0;
+    font-size: 20px;
+}
+
+.place p {
+    color: #fefae0;
+    font-size: 16px;
+}
+
+/* Centered section */
+.centered {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.centered .place {
+    width: 50%;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #023047;
+    color: #94d2bd;
+    margin-top: 20px;
+    font-size: 14px;
+}

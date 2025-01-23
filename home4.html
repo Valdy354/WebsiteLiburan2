@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base4.home</title>
+    <link rel="stylesheet" type="text/css" href="home4style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-utama">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main-title">Dapatkan Pengalaman Berwisata di Indonesia</h1>
+
+        <!-- Barisan pertama: 3 wisata -->
+        <section class="row">
+            <div class="place">
+                <img src="https://www.epicureantravelerblog.com/wp-content/uploads/2020/11/BandaNeiraCanoes-2-1-780x400.jpg" alt="Banda Neira">
+                <h3>Banda Neira</h3>
+                <p>Keindahan alam dan sejarah menjadikan Banda Neira surga tersembunyi di Kepulauan Banda.</p>
+            </div>
+            <div class="place">
+                <img src="https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/210/2017/11/05101453/sunrise-candi-borobudur.jpg" alt="Candi Borobudur">
+                <h3>Candi Borobudur</h3>
+                <p>Candi Buddha terbesar di dunia ini adalah ikon sejarah dan spiritual Indonesia.</p>
+            </div>
+            <div class="place">
+                <img src="https://th.bing.com/th/id/R.a2b84e728870ff45261b5dbe88d4e4c7?rik=Qvx3LgJw24vWOw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-sq81eqG9_xM%2fThtDQX7LfbI%2fAAAAAAAAAS8%2fwNgjpxc9MpQ%2fs1600%2fIMG_3329.JPG&ehk=5o2s%2fIkw74EJML2LImCVDmmEAxtSMZTP4Dn8eCkRZfg%3d&risl=&pid=ImgRaw&r=0" alt="Gunung Rinjani">
+                <h3>Gunung Rinjani</h3>
+                <p>Gunung megah di Lombok dengan jalur pendakian dan pemandangan yang memukau.</p>
+            </div>
+        </section>
+
+        <!-- Barisan kedua: 3 wisata -->
+        <section class="row">
+            <div class="place">
+                <img src="https://www.elssengineering.com/wp-content/uploads/2020/06/Jakarta-Aquarium-1.jpg" alt="Jakarta Aquarium">
+                <h3>Jakarta Aquarium</h3>
+                <p>Destinasi edukasi dan rekreasi keluarga dengan akuarium indoor terbesar di Indonesia.</p>
+            </div>
+            <div class="place">
+                <img src="https://setkab.go.id/wp-content/uploads/2016/08/danau-toba-dari-balige-1.jpg" alt="Danau Toba">
+                <h3>Danau Toba</h3>
+                <p>Danau vulkanik terbesar di dunia dengan Pulau Samosir yang kaya budaya Batak.</p>
+            </div>
+            <div class="place">
+                <img src="https://bellvaadventureindonesia.com/wp-content/uploads/2021/08/large-pict-100-tahun-gedung-sate-98fc7fa941f49fc5b656d5edc9536b65.jpg" alt="Gedung Sate">
+                <h3>Gedung Sate</h3>
+                <p>Ikon Bandung dengan arsitektur unik yang memadukan gaya Eropa dan Nusantara.</p>
+            </div>
+        </section>
+
+        <!-- Barisan ketiga: 1 wisata di tengah -->
+        <section class="centered">
+            <div class="place">
+                <img src="https://th.bing.com/th/id/OIP.9JuEEMgzBTgS-UBuVMyMxwHaE7?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Monumen Pancasila Sakti">
+                <h3>Monumen Pancasila Sakti</h3>
+                <p>Tempat bersejarah untuk mengenang perjuangan para pahlawan revolusi Indonesia.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Base4. All Rights Reserved.</p>
+    </footer>
+	<script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
